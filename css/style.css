@@ -35,7 +35,7 @@ body {
 
 .fifth-box {
   background: rgb(96,9,240);
-  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgb(157, 78, 226) 90%);
+  background: linear-gradient(0deg, rgb(146, 82, 250) 10%, rgb(185, 114, 247) 90%);
   /* background-color: #ffd166; */
 }
 
