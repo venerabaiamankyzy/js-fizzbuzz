@@ -14,20 +14,33 @@ body {
   width: 120px;
   line-height: 120px;
   text-align: center;
+  font-size: 18px;
+  color: white;
   font-weight: bold;
   border: 1px solid gray;
   margin: 10px;
-  background-color: #1389b2;
+  /* background-color: #1389b2; */
+  border-radius: 5px;
+  background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #cbbdf4 8%, #c77aea 74%);
+  box-shadow: 0.25em 0.25em 2em rgba(0, 0, 0, 0.25);
+  
 }
 
 .third-box {
-  background-color: #0cd6a1;
+  /* background-color: #0cd6a1; */
+  background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 90%);
 }
 
 .fifth-box {
-  background-color: #ffd166;
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgb(157, 78, 226) 90%);
+  /* background-color: #ffd166; */
 }
 
 .fifteenth-box {
-  background-color: #f0466f;
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  /* background-color: #f0466f; */
 }

@@ -2,15 +2,19 @@ const listEl = document.getElementById("my-list");
 
 
 for (let i = 1; i <= 100; i++) {
-    const listItemEl = document.createElement('li');
+  const listItemEl = document.createElement('li');
+    listItemEl.innerHTML = `${i}`;
     listItemEl.classList.add('box');
     listEl.append(listItemEl);
 
   if (i % 15 == 0) {
+    listItemEl.innerHTML = "fizzbuzz"
     listItemEl.classList.add('fifteenth-box');
   } else if (i % 5 == 0) {
+    listItemEl.innerHTML = "buzz"
     listItemEl.classList.add('fifth-box');
   } else if (i % 3 == 0) {
+    listItemEl.innerHTML = "fizz"
     listItemEl.classList.add('third-box');
   } 
      
