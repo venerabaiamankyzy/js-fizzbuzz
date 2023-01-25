@@ -1,0 +1,33 @@
+body {
+  background-color: #083b4c;
+}
+#my-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  list-style: none;
+}
+
+.box {
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid gray;
+  margin: 10px;
+  background-color: #1389b2;
+}
+
+.third-box {
+  background-color: #0cd6a1;
+}
+
+.fifth-box {
+  background-color: #ffd166;
+}
+
+.fifteenth-box {
+  background-color: #f0466f;
+}
